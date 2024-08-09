@@ -1,0 +1,39 @@
+body {
+  background: blue;
+  font-family: arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+button {
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+button:hover {
+  color: cyan;
+}
+#PCupgrade img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+    border-radius:5px
+}
+#PCupgrade {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 20px 30px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+#PCupgrade:hover{
+  color:cyan
+}
